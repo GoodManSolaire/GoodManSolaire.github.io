@@ -86,7 +86,7 @@ body {
   margin: 0 0 5px 0;
   font-size: 40px;
   letter-spacing: 14px;
-  font-family: arial,
+  font-family: arial;
   font-weight: 100;
 }
 
@@ -413,6 +413,7 @@ body {
   display: block;
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .right-mans {
@@ -421,7 +422,25 @@ body {
   width: 100%;
 }
 
+.showcase-head
+{
+  text-align: center;
+  margin: 0 auto;
+}
+.showcase-head h2{
+  letter-spacing: 3px;
+}
 
+
+.leftgood {
+  display: block;
+  width: 100%;
+}
+
+.rightgood {
+  display: block;
+  width: 100%;
+}
 
 }
 

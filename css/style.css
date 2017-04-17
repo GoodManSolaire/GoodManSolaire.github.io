@@ -529,8 +529,8 @@ img {
 }
 
 .row1 img, .row2 img {
-  width: 45%;
-  display: inline-block;
+  width: 100%;
+  display: block;
   margin: 10px 0 10px 0;
 }
 
@@ -567,9 +567,12 @@ img {
   width: 100%;
 }
 
+}
 
 
-
-
-
+@media (min-width: 650px) and (max-width: 1025px){
+  .row1 img, .row2 img {
+    width: 60%;
+    margin: 10px auto;
+  }
 }
