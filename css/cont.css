@@ -1,0 +1,347 @@
+/* Global */
+.container {
+  margin: 0 auto;
+  width: 72%;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+.selected {
+  border-bottom: 2px solid white;
+}
+
+/* Showcase */
+.topbar {
+  color: #FFFDFD;
+  font-family: 'Cabin', sans-serif;
+}
+
+.branding {
+  display: inline-block;
+}
+
+.branding h1 {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 27px;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFFDFD;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+.showcase {
+  background: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/contact-food.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  background-position: center;
+}
+
+.showcase-head {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.showcase-head h1 {
+  font-family: 'Great Vibes', cursive;
+  margin: 0;
+  font-size: 65px;
+  color: #C49E5F;
+}
+
+.showcase-head h2 {
+  margin: 0 0 5px 0;
+  font-size: 40px;
+  letter-spacing: 14px;
+  font-family: arial,
+  font-weight: 100;
+}
+
+.showcase-head p {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: arial;
+  font-weight: 100;
+}
+
+
+
+/* Field */
+
+.field {
+  margin: 40px 0 40px 0;
+}
+
+.field-left {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.field-right {
+  display: inline-block;
+  width: 45%;
+}
+
+.field-right input {
+  width: 100%;
+  height: 20px;
+}
+
+#speca {
+  height: 200px;
+}
+
+.foot {
+  border: none;
+}
+
+#submans {
+ margin-top: 10px;
+ padding: 0;
+ border: none;
+ padding: 10px 30px 10px 30px;
+ color: white;
+ background-color: #262526;
+}
+
+
+
+/* Footer */
+
+.topfoot {
+  padding: 40px 0 40px 0;
+  background-color: #121013;
+  color: #FFFFFF;
+  font-family: 'Cabin', sans-serif;
+  min-height: 110px;
+}
+
+
+
+.leftfoot {
+  display: inline-block;
+  width: 45%;
+}
+
+.leftbottom {
+  display: inline-block;
+  width: 30%;
+}
+
+.leftbottom2 {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightfoot {
+  display: inline-block;
+  width: 45%;
+}
+
+.rightbottom {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightbottom2 {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightbottom3 {
+  display: inline-block;
+  width: 30%;
+}
+
+/* Bottom Footer */
+
+.bottomfoot {
+  background-color: #303030;
+  color: #AAAAAC;
+  min-height: 70px;
+}
+
+.footer1 {
+  display: inline-block;
+  width: 49%;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+.footer2 {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .primary {
+    display: block;
+    width: 100%;
+  }
+  img  {
+    vertical-align: none;
+    width: 100%;
+    text-align: center;
+}
+  .navbar {
+    display: block;
+    width: 100%;
+  }
+
+  .branding {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar li {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+  }
+
+.navbar a {
+  padding: 5px;;
+}
+
+.navbar ul {
+  text-align: center;
+  padding: 0;
+}
+
+.branding h1 {
+  margin-top: 0;
+}
+
+.secondary {
+  width: 100%;
+}
+
+.primary p {
+  padding: 0;
+}
+
+.left-side {
+  width: 100%;
+  margin: 0;
+}
+
+.left-side img {
+  margin: 0;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.row1 img, .row2 img {
+  width: 45%;
+  display: inline-block;
+  margin: 10px 0 10px 0;
+}
+
+.right-side {
+  width: 100%;
+  margin: 0;
+}
+
+.food {
+  margin: 0 auto;
+}
+
+.leftculn {
+  display: block;
+  width: 100%;
+}
+.rightculn {
+  margin-top: 5%;
+  display: block;
+  width: 100%;
+}
+
+.rightculn img {
+  width: 70%;
+  margin-top: 2.5%;
+}
+
+.leftbottom, .leftbottom2 {
+  width: 48%;
+}
+
+.leftfoot, .rightfoot {
+  display: block;
+  width: 100%;
+}
+
+.field-left {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.field-right {
+  display: block;
+  width: 100%;
+}
+
+
+
+
+}
