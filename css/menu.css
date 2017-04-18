@@ -195,6 +195,15 @@ body {
   background-position: center;
 }
 
+.dintext {
+  text-align: center;
+  color: white;
+  padding-top: 250px;
+  letter-spacing: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 /* Drinks */
 
 .drinks {

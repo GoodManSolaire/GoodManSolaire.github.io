@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>RestMans | Reservations</title>
+    <script src="https://use.fontawesome.com/7bb7b700ac.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
@@ -32,9 +33,11 @@
 
 
             <div class="showcase-head">
-              <h1>Make a</h1>
-              <h2>RESERVATION</h2>
-              <p>Booking a table online is easy and takes just a couple of minutes.</p>
+              <div class="showtext">
+                <h1>Make a</h1>
+                <h2>RESERVATION</h2>
+                <p>Booking a table online is easy and takes just a couple of minutes.</p>
+              </div>
             </div>
           </div>
       </div>
@@ -44,9 +47,9 @@
         <h1>MAKE ONLINE RESERVATION</h1>
         <p>POWERED BY OPENTABLE</p>
         <div class="table">
-          <input type="text" name="date" placeholder="Place Current Date">
-          <input type="text" name="time" placeholder="Enter Time">
-          <input type="text" name="res" placeholder="People">
+          <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i><input id="date" type="text" name="date" placeholder="Place Current Date"></div>
+          <div class="time"><i class="fa fa-clock-o" aria-hidden="true"></i><input id="time" type="text" name="time" placeholder="Enter Time"></div>
+          <div class="ppl"><i class="fa fa-users" aria-hidden="true"></i><input id="ppl" type="text" name="res" placeholder="People"></div>
           <div class="sub">
             <input id="goo" type="submit" name="table"  value="FIND A TABLE">
           </div>
