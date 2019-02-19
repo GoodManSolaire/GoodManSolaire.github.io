@@ -1,0 +1,578 @@
+/* Global */
+.container {
+  margin: 0 auto;
+  width: 72%;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+}
+
+.selected {
+  border-bottom: 2px solid white;
+}
+
+/* Showcase */
+.topbar {
+  color: #FFFDFD;
+  font-family: 'Cabin', sans-serif;
+}
+
+.branding {
+  display: inline-block;
+}
+
+.branding h1 {
+  border-bottom: 2px solid white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 27px;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFFDFD;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+.showcase {
+  background: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/holiday2013_front.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1000px;
+}
+
+.showcase-head {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+}
+
+.showcase-head h1 {
+  font-family: 'Great Vibes', cursive;
+  margin: 0;
+  font-size: 65px;
+  color: #C49E5F;
+}
+
+.showcase-head h2 {
+  margin: 0 0 5px 0;
+  font-size: 40px;
+  letter-spacing: 14px;
+  font-family: arial,
+  font-weight: 100;
+}
+
+.showcase-head p {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-family: arial;
+  font-weight: 100;
+}
+
+/* Story */
+
+.story {
+  margin: 50px 0 50px 0;
+}
+
+.primary {
+  display: inline-block;
+  width: 43%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.primary h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  margin: 0;
+  color: #C49E5F;
+}
+
+.primary h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 10px;
+  color: #403E3F;
+}
+
+.primary p {
+  margin-top: 5%;
+  font-family: 'Cabin', sans-serif;
+  padding: 10px 70px 0 70px;
+  color: #403E3F;
+}
+
+.primary ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.primary li {
+  list-style: none;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.primary a {
+  text-decoration: none;
+  color: #C49E5F;
+  border-bottom: 1px solid #ce741a;
+}
+
+.secondary {
+  display: inline-block;
+  width: 45%;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+/* Tasty */
+
+.tasty {
+  text-align: center;
+  background: url('http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/iStock_000042255208_Small.jpg?itok=us1bTANN&resize=1260x560');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  background-position: center;
+}
+
+.taste {
+  padding-top: 200px;
+}
+
+.tasty h1 {
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  color: #ce741a;
+}
+
+.tasty h2 {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 8px;
+  color: white;
+}
+
+/* Food */
+
+.food {
+  margin: 40px 0 40px 0;
+}
+
+
+.left-side {
+  display: inline-block;
+  width: 45%;
+}
+
+.right-side {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+
+.right-side h1 {
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  color: #ce741a;
+}
+
+.right-side h2 {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: 8px;
+  color: #403E3F;
+}
+
+.right-side p {
+  margin-top: 5%;
+  font-family: 'Cabin', sans-serif;
+  padding: 10px 70px 0 70px;
+  color: #403E3F;
+}
+
+.right-side li {
+  list-style: none;
+  margin-top: 5%;
+}
+
+.right-side a {
+  text-decoration: none;
+  color: #ce741a;
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 1px solid #ce741a;
+}
+
+.food img {
+  margin: 10px;
+}
+
+.row1 img {
+  width: 45%;
+  display: inline-block;
+  height: 200px;
+}
+
+
+.row2 img {
+  width: 45%;
+  display: inline-block;
+  height: 200px;
+}
+
+/* Blend */
+
+.blend {
+  text-align: center;
+  background-image: url('http://www.sunacfancyfood.com/images/slider/deli_grocery_sunac_fancy_nyc_03.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.blend h1, .blend h2 {
+  margin: 0;
+}
+
+.blend h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  color: #ce741a;
+}
+
+.blend h2 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: 8px;
+  color: #403E3F;
+}
+
+.blend-text {
+  padding-top: 200px;
+}
+
+
+/* Culinary */
+
+.delight {
+  min-height: 530px;
+  margin-top: 75px;
+}
+
+.leftculn {
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.culn-text {
+  padding-top: 25px;
+}
+
+.leftculn h1 {
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  color: #ce741a;
+}
+
+.leftculn h2 {
+  margin: 0;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: 8px;
+  color: #403E3F;
+}
+
+.leftculn p {
+  margin-top: 5%;
+  font-family: 'Cabin', sans-serif;
+  padding: 10px 70px 0 70px;
+  color: #403E3F;
+}
+
+.leftculn li {
+  list-style: none;
+  margin-top: 5%;
+}
+
+.leftculn a {
+  text-decoration: none;
+  color: #ce741a;
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 1px solid #ce741a;
+}
+
+.rightculn{
+  width: 45%;
+  display: inline-block;
+  margin-top: 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.rightculn img {
+  width: 45%;
+  display: inline-block;
+  height: 100%;
+}
+
+/* Footer */
+
+.topfoot {
+  padding: 40px 0 40px 0;
+  background-color: #121013;
+  color: #FFFFFF;
+  font-family: 'Cabin', sans-serif;
+  min-height: 110px;
+}
+
+
+
+.leftfoot {
+  display: inline-block;
+  width: 40%;
+}
+
+.leftbottom {
+  display: inline-block;
+  width: 30%;
+}
+
+.leftbottom2 {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightfoot {
+  display: inline-block;
+  width: 40%;
+}
+
+.rightbottom {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightbottom2 {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightbottom3 {
+  display: inline-block;
+  width: 30%;
+}
+
+/* Bottom Footer */
+
+.bottomfoot {
+  background-color: #303030;
+  color: #AAAAAC;
+  min-height: 70px;
+}
+
+.footer1 {
+  display: inline-block;
+  width: 49%;
+  margin-top: 30px;
+  vertical-align: top;
+}
+
+.footer2 {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .primary {
+    display: block;
+    width: 100%;
+  }
+  img  {
+    vertical-align: none;
+    width: 100%;
+    text-align: center;
+}
+  .navbar {
+    display: block;
+    width: 100%;
+  }
+
+  .branding {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar li {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+  }
+
+.navbar a {
+  padding: 5px;;
+}
+
+.navbar ul {
+  text-align: center;
+  padding: 0;
+}
+
+.branding h1 {
+  margin-top: 0;
+}
+
+.secondary {
+  width: 100%;
+}
+
+.primary p {
+  padding: 0;
+}
+
+.left-side {
+  width: 100%;
+  margin: 0;
+}
+
+.left-side img {
+  margin: 0;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.row1 img, .row2 img {
+  width: 100%;
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+.right-side {
+  width: 100%;
+  margin: 0;
+}
+
+.food {
+  margin: 0 auto;
+}
+
+.leftculn {
+  display: block;
+  width: 100%;
+}
+.rightculn {
+  margin-top: 5%;
+  display: block;
+  width: 100%;
+}
+
+.rightculn img {
+  width: 70%;
+  margin-top: 2.5%;
+}
+
+.leftbottom, .leftbottom2 {
+  width: 48%;
+}
+
+.leftfoot, .rightfoot {
+  display: block;
+  width: 100%;
+}
+
+}
+
+
+@media (min-width: 650px) and (max-width: 1025px){
+  .row1 img, .row2 img {
+    width: 60%;
+    margin: 10px auto;
+  }
+}
